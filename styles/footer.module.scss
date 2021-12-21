@@ -1,0 +1,30 @@
+.footerContainer {
+    padding:1.25rem;
+    color: white;
+     background-color: #436447;
+     display: grid;
+     grid-template-columns: 1fr;
+     text-align: center;
+    grid-template-rows: auto;
+    row-gap: 20px;
+     column-gap: 35px;
+     align-items: center;
+     justify-items: center;
+     .footerLogo {
+         position: relative;
+         width: 150px;
+         height:50px
+     }
+     p {
+         margin:5px;
+    }
+    @media (min-width: 600px) {
+        row-gap: 10px;
+        column-gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+      }
+     @media (min-width: 900px) {
+        height: 260px;
+        grid-template-columns: repeat(4,1fr);
+      }
+}

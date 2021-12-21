@@ -1,0 +1,49 @@
+.course {
+
+.courseHero {
+    height: 70vh;
+    width: 100vw; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    h1 {
+        margin:0;
+        text-align: center;
+        color:white;
+        font-weight: 400;
+    }
+    button {
+        height: 50px;
+        width: 150px;
+        background-color: #FFD561;
+        border: 0;
+        text-transform: uppercase;
+    } 
+}
+.introContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #436447;
+    .introText {
+        width: 50vw;
+        text-align: center;
+    }
+}
+.descriptionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+
+    .descriptionText{
+        width: 80vw;
+    }
+}
+}

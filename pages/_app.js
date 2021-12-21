@@ -1,7 +1,14 @@
-import '@styles/globals.css'
+import "../styles/globals.scss";
+import Layout from "../components/Layout";
+import NextNProgress from "nextjs-progressbar";
 
-function Application({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function MyApp({ Component, pageProps }) {
+  return (
+    <Layout>
+      <NextNProgress />
+      <Component {...pageProps} />
+    </Layout>
+  );
 }
 
-export default Application
+export default MyApp;

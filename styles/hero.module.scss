@@ -1,0 +1,66 @@
+.heroContainer {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  .heroImage {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .heroText {
+    position: absolute;
+    align-self: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+  }
+  .navLinkContainer {
+    z-index: 200;
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    max-width: 850px;
+    overflow-y: hidden;
+    .linkContainer {
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+      width: 100%;
+    }
+  }
+  .logoContainer {
+    position: absolute;
+    bottom: 290px;
+    z-index: 250;
+    overflow-y: hidden;
+
+    .logo {
+      position: relative;
+      width: 350px;
+      height: 150px;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .navLinkContainer {
+      bottom: 110px;
+      flex-direction: row;
+      .linkContainer {
+        flex-direction: row;
+      }
+    }
+    .logoContainer {
+      bottom: 230px;
+
+      .logo {
+        width: 600px;
+        height: 200px;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.video {
+  height: auto;
+  width: 100%;
+  @media (min-width: 600px) {
+    height: 600px;
+  }
+}

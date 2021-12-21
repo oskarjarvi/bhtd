@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-size: cover;
+    padding:30px 20px;
+    background-repeat: no-repeat;
+    h1 {
+        text-transform: uppercase;
+        margin:0;
+    }
+    .textWrapper {
+        margin-top: 30px;
+        background-color: #EFEFEF;
+        width: 100%;
+        max-width: 700px;
+        color: black;
+        padding: 20px;
+        .text {
+            text-align: center;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap;  /* Mozilla */
+            word-wrap: break-word; 
+        }
+       
+    }
+    
+   @media (min-width: 900px) {
+        padding:80px;
+       .textWrapper {
+        padding: 80px;
+       }
+
+    }
+}

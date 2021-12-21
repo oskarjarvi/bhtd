@@ -1,0 +1,34 @@
+.educationsContainer {
+    display:flex;
+    justify-content: center;
+    padding:100px 0;
+    background-color: #436447;
+    color:white;
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 690px;
+        h1 {
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        .certImagesContainer {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+        }
+        pre {
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap;  /* Mozilla */
+            word-wrap: break-word;
+        }
+    }
+    @media (max-width: 600px) {
+        padding:30px;
+    max-height: unset;
+    }
+    
+}

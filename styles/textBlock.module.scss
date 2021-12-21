@@ -1,0 +1,18 @@
+.textContainer {
+  padding: 20px;
+  .text {
+    text-align: start;
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+    margin-bottom: 50px;
+    h2 {
+      margin: 0;
+    }
+  }
+  @media (min-width: 600px) {
+    .text {
+      text-align: center;
+    }
+  }
+}

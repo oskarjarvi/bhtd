@@ -1,0 +1,33 @@
+.navLink {
+    display: block;
+    width:100%;
+    max-width: 130px;
+    background-color: #FFD561;
+    min-width: 150px;
+    text-align: center;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    p {
+        margin:0;
+        text-transform: uppercase;
+    }
+    @media (min-width: 600px) {
+        max-width: 25%;
+        padding: 30px 10px;
+
+          }
+}
+.smallNavLink {
+    display: block;
+    width:100%;
+    max-width: 20%;
+    background-color: #FFD561;
+    padding: 20px 10px;
+    min-width: 100px;
+    text-align: center;
+    p {
+        color:black;
+        margin:0;
+        text-transform: uppercase;
+    }
+}
